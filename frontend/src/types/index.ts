@@ -1,0 +1,30 @@
+export interface Customer {
+  CustomerID: number;
+  CustomerCode: number;
+  CustomerName: string;
+  CustomerCatégorie: string;
+  Region: string;
+  Wilaya: string;
+  CANet: number;
+  CAParMoisActif: number;
+  Fréquence: number;
+  FreqParMoisActif: number;
+  QteNette: number;
+  QteParMoisActif: number;
+  MoisActifs: number;
+  MoisDepuisDebut: number;
+  RatioMoisActifs: number;
+  TauxRetour: number;
+  RemiseMoyenne: number;
+  PartCAHauteMarge: number;
+  SegmentABC: string;
+  ScoreCA: number;
+  ScoreFréquence: number;
+  ScoreQuantité: number;
+  ScoreMoisActifs: number;
+  ScoreRetour: number;
+  ScoreRemise: number;
+  ScoreCAMois: number;
+  ScoreHauteMarge: number;
+  ScoreGlobal: number;
+}
